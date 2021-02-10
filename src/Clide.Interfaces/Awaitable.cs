@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 
 namespace Clide
 {
+
     /// <summary>
     /// Provides a factory for <see cref="Awaitable{T}"/>.
     /// </summary>
