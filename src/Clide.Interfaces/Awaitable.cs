@@ -15,6 +15,8 @@ namespace Clide
         public static Awaitable<T> Create<T>(Func<Task<T>> getter) => new Awaitable<T>(getter);
     }
 
+
+
     /// <summary>
     /// Allows retrieving a property value by awaiting it,
     /// instead of turning such properties into <c>GetXXXAsync</c> 
