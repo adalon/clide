@@ -13,6 +13,7 @@ namespace Clide
         /// <summary>
         /// Creates an <see cref="Awaitable{T}"/> for the given getter.
         /// </summary>
+        /// 
         public static Awaitable<T> Create<T>(Func<Task<T>> getter) => new Awaitable<T>(getter);
     }
 
