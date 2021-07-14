@@ -9,6 +9,7 @@ namespace Clide
     /// </summary>
     public static class Awaitable
     {
+
         /// <summary>
         /// Creates an <see cref="Awaitable{T}"/> for the given getter.
         /// </summary>
